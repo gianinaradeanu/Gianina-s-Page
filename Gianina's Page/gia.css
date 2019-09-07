@@ -1,0 +1,42 @@
+
+img {
+	width: 150px;
+	margin-top: 40px; 
+	border: 3px solid #fff;
+	border-radius: 75%;
+}
+
+ul {
+	padding: 10px;
+	background: rgb(144, 7, 0, 0.2);
+}
+
+li {
+	list-style: none;
+	display: inline;
+	padding: 10px 10px 00px 10px;
+	
+}
+header {
+	text-align: center;
+	background: url("red.jpg");
+	background-size: cover;
+	color: #fff;
+}
+
+a {
+	color: #fff;
+}
+
+h1 {
+	font-size: 70px;
+}
+@media(max-width: 500px){
+	h1 {
+		font-size: 36px;
+	}
+	li {
+		display: block;
+		padding: 5px;
+	}
+}
